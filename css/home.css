@@ -4,32 +4,44 @@ body{
 	margin: auto;
 }
 
+.navs-logo{
+	height: 120px;
+	width: 120px;
+	float: left;
+	padding-left: 3vw;
+}
+.navs-cover{
+	width: 40%;
+	height: 40%;
+	margin: auto;
+}
+
 .navbar-first{
 	margin: auto;
-	background-color: navy;
+	background-color: #366DA5;
 	height: 15vh;
 }
 
 .navbar-second{
-	background-color: gold;
+	background-color: #DAA520;
 }
 
 h1.nav-title{
 	color: white; 
 	font-size: 40px;
 	padding-top: 5vh;
-	padding-left: 3vw;
 }
 
 a.link{
 	color: navy;
-	font-size: 20px;
+	font-size: 27px;
 	margin-right: 40px;
+	padding-left: 3vw;
 }
 p{
 	color: black;
 }
 
 h1{
-	color: gold;
+	color: #DAA520;
 }
