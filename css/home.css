@@ -1,0 +1,35 @@
+body{
+	width: 100%;
+	background-color: white;
+	margin: auto;
+}
+
+.navbar-first{
+	margin: auto;
+	background-color: navy;
+	height: 15vh;
+}
+
+.navbar-second{
+	background-color: gold;
+}
+
+h1.nav-title{
+	color: white; 
+	font-size: 40px;
+	padding-top: 5vh;
+	padding-left: 3vw;
+}
+
+a.link{
+	color: navy;
+	font-size: 20px;
+	margin-right: 40px;
+}
+p{
+	color: black;
+}
+
+h1{
+	color: gold;
+}
