@@ -27,9 +27,11 @@ body{
 }
 
 h1.nav-title{
-	color: white; 
+	color: white;
 	font-size: 40px;
 	padding-top: 5vh;
+	font-family: serif;
+	text-align: center;
 }
 
 a.link{
@@ -37,11 +39,14 @@ a.link{
 	font-size: 27px;
 	margin-right: 40px;
 	padding-left: 3vw;
+	font-family: serif;
 }
 p{
 	color: black;
+	font-family: serif;
 }
 
 h1{
 	color: #DAA520;
+	font-family: serif;
 }
