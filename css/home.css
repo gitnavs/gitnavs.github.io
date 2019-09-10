@@ -5,10 +5,10 @@ body{
 }
 
 .navs-logo{
-	height: 120px;
-	width: 120px;
-	float: left;
-	padding-left: 3vw;
+	height: 150px;
+	width: 500px;
+	display: block;
+	margin: auto;
 }
 .navs-cover{
 	width: 40%;
@@ -18,19 +18,42 @@ body{
 
 .navbar-first{
 	margin: auto;
+	padding-top: 30px;
 	background-color: #366DA5;
-	height: 15vh;
+	height: 40vh;
 }
 
 .navbar-second{
 	background-color: #DAA520;
+	margin: auto;
+}
+
+div.navbar-second ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+	background-color: #DAA520;
+}
+
+div.navbar-second li {
+  float: left;
+	border-right: 2px solid #366DA5;
+	background-color: #DAA520;
+	text-align: center;
+}
+
+div.navbar-second li a {
+  display: block;
+  text-align: center;
+}
+
+div.navbar-second li:hover {
+  background-color: #EBCA77;
 }
 
 h1.nav-title{
 	color: white;
 	font-size: 40px;
-	padding-top: 5vh;
-	font-family: serif;
 	text-align: center;
 }
 
@@ -39,14 +62,15 @@ a.link{
 	font-size: 27px;
 	margin-right: 40px;
 	padding-left: 3vw;
-	font-family: serif;
+	font-family: sans-serif;
 }
 p{
 	color: black;
 	font-family: serif;
+	padding: 20px;
 }
 
 h1{
 	color: #DAA520;
-	font-family: serif;
+	font-family: sans-serif;
 }
