@@ -59,9 +59,8 @@ h1.nav-title{
 
 a.link{
 	color: navy;
-	font-size: 27px;
-	margin-right: 40px;
-	padding-left: 3vw;
+	font-size: 20px;
+	padding: 1vw 2vw;
 	font-family: sans-serif;
 }
 p{
