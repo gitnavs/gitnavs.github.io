@@ -9,8 +9,8 @@ body{
 }
 
 .navs-logo{
-	height: 30px;
-	width: 30px;
+	height: 4vmin;
+	width: 4vmin;
 	display: block;
 	margin: auto;
 	background-color: #6a95a6;
@@ -19,8 +19,8 @@ body{
 }
 
 .geisel{
-	height: auto;
-	width: auto;
+	max-height: 100%;
+	max-width: 100%;
 	display: block;
 	margin: auto;
 	padding-top: 30px;
@@ -35,7 +35,7 @@ body{
 .navbar-first{
 	margin: auto;
 	padding-top: 30px;
-	height: vmax;
+	height: 80vh;
 }
 
 .navbar-second{
@@ -60,6 +60,7 @@ div.navbar-second li {
 div.navbar-second li a {
   display: block;
   text-align: center;
+	padding: 0.75em 1em;
 }
 
 div.navbar-second li:hover {
@@ -73,6 +74,7 @@ h1.nav-title{
 	position: absolute;
 	transform: translate(-50%, -50%);
 	text-shadow: 2px 2px 8px black;
+	width: 100%;
 }
 
 #line1{
@@ -94,8 +96,8 @@ h1.nav-title{
 .navs-logo-large{
 	margin: auto;
 	position: absolute;
-	height: 13%;
-	width: 22%;
+	max-height: 13%;
+	max-width: 22%;
 	top: 64%;
 	left: 50%;
 	transform: translate(-50%, -50%);
@@ -103,9 +105,8 @@ h1.nav-title{
 
 
 a.link{
-	color: navy;
-	font-size: 20px;
-	padding: 1vw 2vw;
+	color: #405F73;
+	font-size: 2.5vmin;
 	font-family: sans-serif;
 	text-decoration: none;
 }
@@ -123,4 +124,47 @@ h1{
 
 body{
 	background-color: #6a95a6;
+}
+
+h4{
+	font-family: arial;
+	color: #405F73;
+	font-size: 100%;
+	font-weight: 400;
+  margin: 0px;
+}
+
+.follow{
+	margin: 0px;
+	float: left;
+}
+
+.socials{
+	float: left;
+	position: relative;
+	top: 50%;
+	transform: translate(0%, -50%);
+	padding: 10px;
+}
+
+.social-logos{
+	max-height: 2em;
+	max-width: 2em;
+	padding: 0px 5px 0px 5px;
+	float: left;
+}
+
+footer{
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 25px;
+	bottom: 0px;
+}
+
+.footer{
+	background-color: #F28444;
+	margin: auto;
+	left: 50%;
+	height: 10vh;
+	max-width: 600px;
 }
