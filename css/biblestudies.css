@@ -1,13 +1,180 @@
+
+/*--------table stuff--------*/
 table, th, td {
-  border: 1px solid black;
   border-collapse: collapse;
+  font-family: Helvetica, sans-serif;
 }
 
 th, td {
   padding: 15px;
   text-align: center;
+  border: none;
+  font-size: 2vmin;
 }
 
 table {
   border-spacing: 5px;
+  margin: auto;
+  overflow-x: scroll;
+}
+
+th {
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+  background-color: #C9E7F2;
+  color: black;
+}
+
+.study-name {
+  border-right: 1px solid black;
+  font-weight: bold;
+}
+
+tr:nth-child(even){
+  background-color: #C3DAE3;
+}
+
+tr:nth-child(odd){
+  background-color: white;
+}
+
+tr:hover{
+  background-color: #405F73;
+  color: white;
+}
+
+/* ----------navigation bar---------- */
+.logo{
+		float: left;
+}
+
+.navs-logo{
+	height: 4vmin;
+	width: 4vmin;
+	display: block;
+	margin: auto;
+	background-color: #6a95a6;
+	padding: 10px;
+	float: left;
+}
+
+div.logo h3{
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  color: white;
+  float: left;
+  padding: 5px;
+  margin: 0px;
+  padding-right: 30px;
+}
+
+.navbar-second{
+	background-color: #F2C641;
+	margin: auto;
+}
+
+div.navbar-second ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+	background-color: #F2C641;
+}
+
+div.navbar-second li {
+  float: left;
+	border-right: 2px solid #6a95a6;
+	background-color: #F2C641;
+	text-align: center;
+}
+
+div.navbar-second li a {
+  display: block;
+  text-align: center;
+	padding: 0.75em 1em;
+}
+
+div.navbar-second li:hover {
+  background-color: #ffe081;
+}
+
+a.link{
+	color: #405F73;
+	font-size: 2.5vmin;
+	font-family: sans-serif;
+	text-decoration: none;
+}
+
+/*--------general all pages stuff--------*/
+body{
+	width: 100%;
+	background-color: #6a95a6;
+	margin: auto;
+}
+
+h1{
+  clear: both;
+  font-family: Helvetica, sans-serif;
+  font-weight: 700;
+  margin: 0px;
+  text-align: center;
+  font-size: 6vmin;
+}
+
+p{
+  text-align: center;
+  font-size: 2.25vmin;
+  font-family: Garamond, "Baskerville Old Face", serif;
+}
+
+/*--------content rectangle--------*/
+.content-rectangle{
+  clear: both;
+  background-color: #C9E7F2;
+  margin: 20px auto;
+  max-width: 1000px;
+  padding: 20px;
+}
+
+/*--------footer stuff--------*/
+h4{
+	font-family: arial;
+	color: #405F73;
+	font-size: 100%;
+	font-weight: 400;
+  margin: 0px;
+}
+
+.follow{
+	margin: 0px;
+	float: left;
+}
+
+.socials{
+	float: left;
+	position: relative;
+	top: 50%;
+	transform: translate(0%, -50%);
+	padding: 10px;
+}
+
+.social-logos{
+	max-height: 2em;
+	max-width: 2em;
+	padding: 0px 5px 0px 5px;
+	float: left;
+}
+
+footer{
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 25px;
+	bottom: 0px;
+}
+
+.footer{
+	background-color: #F28444;
+	margin: auto;
+	left: 50%;
+	height: 10vh;
+	max-width: 600px;
 }
