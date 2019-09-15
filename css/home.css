@@ -31,7 +31,6 @@ div.logo h3{
 }
 
 .navbar-second{
-	background-color: #F2C641;
 	margin: auto;
 }
 
@@ -39,7 +38,6 @@ div.navbar-second ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-	background-color: #F2C641;
 }
 
 div.navbar-second li {
@@ -47,6 +45,7 @@ div.navbar-second li {
 	border-right: 2px solid #6a95a6;
 	background-color: #F2C641;
 	text-align: center;
+	margin-bottom: 20px;
 }
 
 div.navbar-second li a {
@@ -85,34 +84,33 @@ a.link{
 
 .navbar-first{
 	margin: auto;
-	padding-top: 30px;
-	height: 80vh;
+	margin-bottom: 20px;
+	clear: both;
+	position: relative;
 }
 
 h1.nav-title{
 	color: #c9e7f2;
-	font-size: 50px;
+	font-size: 7.5vmin;
 	text-align: center;
 	position: absolute;
 	transform: translate(-50%, -50%);
+	left: 50%;
 	text-shadow: 2px 2px 8px black;
 	width: 100%;
 }
 
 #line1{
-	top: 32%;
-	left: 50%;
+	top: 33%;
 }
 
 #line2{
-	top: 40%;
-	left: 50%;
+	top: 44%;
 }
 
 #line3{
-	top: 74%;
-	left: 50%;
-	font-size: 30px;
+	top: 82%;
+	font-size: 4vmin;
 }
 
 .navs-logo-large{
@@ -120,7 +118,7 @@ h1.nav-title{
 	position: absolute;
 	max-height: 13%;
 	max-width: 22%;
-	top: 64%;
+	top: 66%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
@@ -167,9 +165,9 @@ h4{
 }
 
 footer{
-	padding-left: 25px;
-	padding-right: 25px;
-	padding-top: 25px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
 	bottom: 0px;
 }
 
