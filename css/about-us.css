@@ -84,9 +84,13 @@ p{
 .content-rectangle{
   clear: both;
   background-color: #C9E7F2;
+  padding: 20px;
   margin: 20px auto;
   max-width: 1000px;
-  padding: 20px;
+}
+
+.content-rectangle-holder{
+  margin: 0 20px;
 }
 
 /*--------footer stuff--------*/
@@ -119,9 +123,9 @@ h4{
 }
 
 footer{
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
 	bottom: 0px;
 }
 
