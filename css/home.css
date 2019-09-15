@@ -8,6 +8,8 @@ body{
 /* ----------navigation bar---------- */
 .logo{
 		float: left;
+    margin-right: 30px;
+    position: relative;
 }
 
 .navs-logo{
@@ -23,11 +25,13 @@ body{
 div.logo h3{
   font-family: Helvetica, sans-serif;
   font-weight: bold;
+  font-size: 2.7vmin;
   color: white;
   float: left;
   padding: 5px;
   margin: 0px;
-  padding-right: 30px;
+  position: relative;
+  top: 5px;
 }
 
 .navbar-second{
