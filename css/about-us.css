@@ -35,6 +35,7 @@ div.navbar-second ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+	overflow-x: scroll;
 }
 
 div.navbar-second li {
@@ -104,6 +105,7 @@ h4{
 	font-size: 100%;
 	font-weight: 400;
   margin: 0px;
+	font-size: 2.25vmin;
 }
 
 .follow{
@@ -124,6 +126,7 @@ h4{
 	max-width: 2em;
 	padding: 0px 5px 0px 5px;
 	float: left;
+	font-size: 2.25vmin;
 }
 
 footer{
@@ -139,4 +142,9 @@ footer{
 	left: 50%;
 	height: 80px;
 	max-width: 600px;
+}
+
+/*--------specific page stuff--------*/
+.group{
+	max-width: 100%;
 }

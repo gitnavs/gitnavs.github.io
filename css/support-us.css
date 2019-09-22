@@ -1,10 +1,3 @@
-body{
-	width: 100%;
-	background-color: #6a95a6;
-	margin: auto;
-}
-
-
 /* ----------navigation bar---------- */
 .logo{
 		float: left;
@@ -42,7 +35,7 @@ div.navbar-second ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-	overflow-x: scroll;
+  overflow-x: scroll;
 }
 
 div.navbar-second li {
@@ -50,7 +43,7 @@ div.navbar-second li {
 	border-right: 2px solid #6a95a6;
 	background-color: #F2C641;
 	text-align: center;
-	margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 div.navbar-second li a {
@@ -70,71 +63,40 @@ a.link{
 	text-decoration: none;
 }
 
-
-/*--------geisel stuff--------*/
-.geisel{
-	max-height: 100%;
-	max-width: 100%;
-	display: block;
-	margin: auto;
-	padding-top: 30px;
-	clear: both;
-}
-
-.navs-cover{
-	width: 40%;
-	height: 40%;
-	margin: auto;
-}
-
-.navbar-first{
-	margin: auto;
-	margin-bottom: 20px;
-	clear: both;
-	position: relative;
-}
-
-h1.nav-title{
-	color: #c9e7f2;
-	font-size: 7.5vmin;
-	text-align: center;
-	position: absolute;
-	transform: translate(-50%, -50%);
-	left: 50%;
-	text-shadow: 2px 2px 8px black;
+/*--------general all pages stuff--------*/
+body{
 	width: 100%;
-	overflow-x: scroll;
-}
-
-#line1{
-	top: 33%;
-}
-
-#line2{
-	top: 44%;
-}
-
-.navs-logo-large{
+	background-color: #6a95a6;
 	margin: auto;
-	position: absolute;
-	max-height: 30%;
-	max-width: 30%;
-	top: 82%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-}
-
-p{
-	color: black;
-	font-family: sans-serif;
-	padding: 20px;
 }
 
 h1{
-	color: #DAA520;
-	font-family: Helvetica;
+  clear: both;
+  font-family: Helvetica, sans-serif;
+  font-weight: 700;
+  margin: 0px;
+  text-align: center;
+  font-size: 6vmin;
 }
 
+p{
+  text-align: center;
+  font-size: 2.25vmin;
+  font-family: Garamond, "Baskerville Old Face", serif;
+}
+
+/*--------content rectangle--------*/
+.content-rectangle{
+  clear: both;
+  background-color: #C9E7F2;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 1000px;
+}
+
+.content-rectangle-holder{
+  margin: 0 20px;
+}
 
 /*--------footer stuff--------*/
 h4{
@@ -159,11 +121,11 @@ h4{
 }
 
 .social-logos{
+  font-size: 2.25vmin;
 	max-height: 2em;
 	max-width: 2em;
 	padding: 0px 5px 0px 5px;
 	float: left;
-	font-size: 2.25vmin;
 }
 
 footer{
@@ -177,6 +139,22 @@ footer{
 	background-color: #F28444;
 	margin: auto;
 	left: 50%;
-	height: 10vh;
+	height: 80px;
 	max-width: 600px;
+}
+
+/*--------specific page stuff--------*/
+.support-button{
+  padding: 20px;
+}
+
+.support-button a{
+  background-color: #405F73;
+  font-size: 3vmin;
+  color: #F2C641;
+  text-decoration: none;
+  margin: auto;
+  font-family: Helvetica, sans-serif;
+  padding: 10px;
+  text-align: center;
 }
