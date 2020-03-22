@@ -180,3 +180,16 @@ footer{
 	height: 10vh;
 	max-width: 600px;
 }
+
+/*-----other stuf-----*/
+h3 a {
+	color: black;
+	font-family: sans-serif;
+	text-decoration: underline;
+	font-weight: 0;
+	text-align: center;
+}
+
+.email {
+	text-align: center;
+}
